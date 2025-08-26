@@ -1,0 +1,30 @@
+{
+  "name": "vickweb",
+  "version": "1.0.0",
+  "description": "An Whatsapp Client Web (NOT OFFICIAL)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc ./backend/index.ts",
+    "start": "node ./backend/index.js",
+    "frontend": "vite --host"
+  },
+  "author": "victorbillyph",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/qrcode": "^1.5.5",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "qr": "^0.5.1",
+    "qrcode": "^1.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tsc": "^2.0.4",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3",
+    "whatsapp-web.js": "^1.32.0"
+  }
+}
